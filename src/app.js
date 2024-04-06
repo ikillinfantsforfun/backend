@@ -6,7 +6,7 @@ import cors from "cors"
 const app = express();
 
 app.use(cors({
-    origin: ['http://localhost:5173','https://trial-crkhnt.vercel.app', 'cr4ckhnt.isdf.tech'],
+    origin: ['http://localhost:5173','https://trial-crkhnt.vercel.app', 'https://cr4ckhnt.isdf.tech'],
     credentials: true
 }))
 
